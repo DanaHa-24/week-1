@@ -1,0 +1,161 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
+.openfeed{
+    background-color: #E4F9F5;
+    color: #40514E;
+    font-family:'Merriweather';
+    text-align: center;
+    line-height: 1.5em;
+}
+
+ h1 {
+    color:#66BFBF;
+    text-align: center;
+    font-family:'Sacramento';
+    font-size: 500%;
+}
+
+.intro{
+    background-color: white;
+    color: #40514E;
+    font-family:'Merriweather';
+    text-align: center;
+    line-height: 1.5em;
+}
+
+h2{
+    color:#66BFBF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 200;
+}
+
+.design{
+    background-color: white;
+    color: #40514E;
+    font-family:'Merriweather';
+    text-align: middle;
+    line-height: 2.0em;
+    padding-left: 300px;
+}
+
+.debug{
+    background-color: white;
+    color: #40514E;
+    font-family:'Merriweather';
+    text-align: left;
+    line-height: 2.0em;
+    padding-left: 500px;
+    margin-left:-20px;
+}
+#s1{
+    padding-right: 100px;
+}
+.contact{
+    background-color:white;
+    color: #40514E;
+    font-family:'Merriweather';
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.links{
+    background-color: #66BFBF;
+    color: #11999E;
+    text-align: center;
+    border:none;
+    font-family: 'Montserrat';
+    height:50px;
+    line-height: 3.5em;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat';
+}
+
+h4{
+    font-size: xx-large;
+    color: #E4F9F5;
+    text-align: center;
+}
+
+#button-link{
+    color: #30e3cb;
+    border: none;
+    padding: 12px 12px;
+    color: white;
+    background-color:#11cdd4;
+    font-family: 'Montserrat';
+    border-radius: 18%;
+    font-size: large;
+    height: 70px;
+    width: 100px;
+}
+
+footer{
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    text-align: center;
+    top: auto;
+    line-height: normal;
+    font-size: small;
+    font-family: 'Montserrat';
+    height:100px;
+}
+
+.my_img{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.topcloud{
+    width: 7%;
+    margin-right: -1150px;
+    margin-top: 40px;
+}
+
+.bottomcloud{
+    width: 7%;
+    margin-left: -900px;
+    margin-bottom: -20px;
+}
+
+.mountain{
+    width: 30%;
+}
+
+.first_gif{
+    position: absolute;
+    margin-left: 1100px;
+    clear:both;
+}
+
+.second_gif{
+    position: absolute;
+    margin-left: 300px;
+    clear:both;
+}
+
+#one, #two, #three, #four{
+    margin-left: 350px;
+    margin-right: 150px;
+    overflow:auto;
+    display:block;
+    margin-top: -20px;
+}
+
+#s2{
+    margin-top: -20px;
+    margin-left: 100px;
+}
+a{
+    color:#11999E;
+    text-decoration-line: none;
+}
+
+  

@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Fylo data storage component</title>
-</head>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="stylef.css">
+    <title>Fylo data storage component</title>
+  </head>
 
-<body>
+  <body>
 
-  You’ve used 815 GB of your storage
+      <div class="logo-block">
+        <img class="logo" src="assets/logo.svg" alt="fylo-logo">
+        <div class="grid">
+          <div class="grid-item">
+            <img src="assets/icon-document.svg" alt="document">
+          </div>
+          <div class="grid-item">
+            <img src="assets/icon-folder.svg" alt="folder">
+          </div>
+          <div class="grid-item">
+            <img src="assets/icon-upload.svg" alt="upload">
+          </div>
+        </div>
+      </div>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-</body>
+      <div class="usage-block">
+        <p class="usage-text">
+          You’ve used 
+          <span>
+            <strong>815 GB</strong>
+          </span>
+           of your storage
+        </p>
+
+        <div class="progress-bar">
+
+          <div class="bar-scale">
+              <div class="progress-completed">
+                <div class="completed-button"></div>
+              </div>
+          </div>
+
+          <div class="bar-info">
+            <div class="progress-value1">0 GB</div>
+            <div class="progress-value2">1000 GB</div>
+          </div>
+        </div>
+
+        <div class="remaining-capacity">
+          <span class="remaining-capacity-number">185</span>
+          <span class="remaining-capacity-text">GB LEFT</span>
+        </div>
+        <div class="arrow-down"> </div>
+      </div>
+
+      <div class="bg-attribution">
+        <img class="bg-img" src="assets/bg-desktop.png" alt>
+      </div>
+
+  </body>
+
 </html>
