@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="stylesheet" href="stylef.css">
+    <script type="text/javascript" src="myjava.js"></script>
     <title>Fylo data storage component</title>
   </head>
 
@@ -25,6 +26,10 @@
             </div>
             <div class="grid-item">
               <img src="assets/icon-upload.svg" alt="upload">
+              <input type="file" id="video-file" style='display:none' multiple>
+              \*<input type="button" id="btn_uploadfile" 
+              value="Upload" 
+              onclick="uploadFile();" >
             </div>
           </div>
         </div>
