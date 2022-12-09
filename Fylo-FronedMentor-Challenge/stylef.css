@@ -108,12 +108,13 @@ strong {
   flex-wrap: wrap;
   align-items: center;
 }
-.progress-completed{
+#progress-completed{
   background-image: linear-gradient(to right, #FFA399, #FF4D97);
-  width: 78.5%;
+  width: 10%;
   height: 16px;
   border-radius: 25px;
-  margin-left: 2px;
+  margin-top: 0.75px;
+  margin-left: 3px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -167,14 +168,14 @@ strong {
   font-weight: 700;
   color: #848794;
 }
-.remaining-capacity-number{
+#remaining-capacity-number{
   font-size: 44px;
   font-weight: bold;
   color: black;
   animation-play-state: inherit;
   margin-bottom: 6px;
 }
-.remaining-capacity-text{
+#remaining-capacity-text{
   font-size: 14px;
   padding-left: 11px;
 }
@@ -186,4 +187,10 @@ strong {
   height: 1%;
   border-left: 20px solid transparent;
   border-top: 20px solid #ffffff;
+}
+
+input{
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
 }

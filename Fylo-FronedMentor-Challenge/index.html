@@ -19,17 +19,16 @@
           <img class="logo" src="assets/logo.svg" alt="fylo-logo">
           <div class="grid">
             <div class="grid-item">
-              <img src="assets/icon-document.svg" alt="document">
+              <!--<input type="file" id="document" name="file" onchange="return fileValidation()">-->
+              <label for="document"><img src="assets/icon-document.svg"/></label>
             </div>
             <div class="grid-item">
-              <img src="assets/icon-folder.svg" alt="folder">
+              <!--<input type="file" id="folder" name="file" onchange="return fileValidation()">-->
+              <label for="folder"><img src="assets/icon-folder.svg"/></label>
             </div>
             <div class="grid-item">
-              <img src="assets/icon-upload.svg" alt="upload">
-              <input type="file" id="video-file" style='display:none' multiple>
-              \*<input type="button" id="btn_uploadfile" 
-              value="Upload" 
-              onclick="uploadFile();" >
+              <input type="file" id="upload" name="file" onchange="return uploadFiles()" multiple>
+              <label for="upload"><img src="assets/icon-upload.svg"/></label>
             </div>
           </div>
         </div>
@@ -38,17 +37,17 @@
           <p class="usage-text">
             You’ve used 
             <span>
-              <strong>815 GB</strong>
+              <label id="inUsed">100</label>
             </span>
-            of your storage
+             GB of your storage
           </p>
 
           <div class="progress-bar">
 
             <div class="bar-scale">
-                <div class="progress-completed">
+                <label id="progress-completed">
                   <div class="completed-button"></div>
-                </div>
+                </label>
             </div>
 
             <div class="bar-info">
@@ -58,8 +57,8 @@
           </div>
 
           <div class="remaining-capacity">
-            <span class="remaining-capacity-number">185</span>
-            <span class="remaining-capacity-text">GB LEFT</span>
+            <label id="remaining-capacity-number">900</label>
+            <label id="remaining-capacity-text">GB LEFT</label>
           </div>
           <div class="arrow-down"> </div>
         </div>
